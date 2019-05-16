@@ -1,3 +1,524 @@
-.header {
-    background: green;
+.container {
+    width: 768px;
+    height: 107px;
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-button {
+        display: !important block;
+        position: relative;
+        flex-grow: 1;
+
+        .navbtn-hover {
+            position: absolute;
+            top: 8px;
+            right: 20px;
+            width: 56px;
+            height: 39px;
+            cursor: pointer;
+        }
+    }
+}
+
+.container nav .navbtn-hover:hover {
+    background-color: $color-3;
+}
+
+.slider-bg {
+    height: 593px;
+
+    .slider {
+        margin-left: -21px;
+        padding-top: 150px;
+
+        h3 {
+            margin-left: -6px;
+            letter-spacing: -1.9px;
+            word-spacing: .85px;
+        }
+
+        h2 {
+            margin: -10px 0 0 -5px;
+            letter-spacing: -2.7px;
+        }
+
+        p {
+            margin: 2px 0 0 -4px;
+            letter-spacing: -.58px;
+        }
+    }
+}
+
+.slider-bg .slider .button button {
+    margin-top: 35px;
+    margin-left: -6px;
+}
+
+.slider-bg .slider .button .button-border {
+    top: 37px;
+    left: 309px;
+}
+
+.slider-bg .slider-prev {
+    display: none;
+}
+
+.slider-bg .slider-next {
+    display: none;
+}
+
+.about {
+    height: 1074px;
+}
+
+.about .section-names {
+    margin-top: 72px;
+}
+
+.about .section-names h2 {
+    margin-left: -21px;
+    letter-spacing: -1.5px;
+}
+
+.about .section-names .borders {
+    margin-top: 9px;
+    margin-left: -17px;
+}
+
+.about .about-content {
+    display: none;
+}
+
+.about-talet-header {
+    width: 718px;
+    height: 421px;
+    margin-top: 19px;
+    background-color: $color-10;
+}
+
+.about-tablet-content .about-talet-body .about-title {
+    margin-top: 28px;
+    margin-left: -1px;
+    color: #323232;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -.6px;
+}
+
+.about-tablet-content .about-talet-body .about-text {
+    margin-top: 36px;
+    margin-left: 0;
+    color: #6A6A6A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text img {
+    float: left;
+}
+
+.about-tablet-content .about-talet-body .about-content-text p {
+    margin-top: 9px;
+    color: $color-7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-one {
+    margin-top: 41px;
+    margin-left: 1px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-one p {
+    margin-top: -5px;
+    margin-left: 30px;
+    color: #6A6A6A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-one img {
+    margin-top: 4px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-two {
+    margin-top: 25px;
+    margin-left: 1px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-two p {
+    margin-top: -6px;
+    margin-left: 30px;
+    color: #6A6A6A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-two img {
+    margin-top: 4px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-three {
+    margin-top: 26px;
+    margin-left: 1px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-three p {
+    margin-top: -6px;
+    margin-left: 30px;
+    color: #6A6A6A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.about-tablet-content .about-talet-body .about-content-text-three img {
+    margin-top: 4px;
+}
+
+.about-tablet-content .about-talet-body input {
+    width: 140px;
+    height: 42px;
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-right: 8px;
+    border: none;
+    background-color: #3AB6B2;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.3px;
+    cursor: pointer;
+}
+
+.services {
+    height: 1286px;
+    padding-top: 71px;
+}
+
+.services .section-names {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.services .section-names .section-names-h {
+    padding-right: 14px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
+
+.services .section-names .borders {
+    position: relative;
+    margin-top: 12px;
+}
+
+.services .section-names .borders .border-left {
+    position: absolute;
+    top: 7px;
+    left: 89px;
+    width: 37px;
+    height: 1.1px;
+    background: #D3D3D3;
+}
+
+.services .section-names .borders .border-right {
+    position: absolute;
+    top: 7px;
+    right: 101px;
+    width: 37px;
+    height: 1.1px;
+    background: #D3D3D3;
+}
+
+.services .section-names .borders img {
+    margin-left: -11px;
+}
+
+.services .services-content {
+    display: block;
+    margin-top: 23px;
+}
+
+.services .services-content .service-content-one {
+    margin: 0 auto;
+    padding-right: 18px;
+}
+
+.services .services-content .service-content-two {
+    margin: 0 auto;
+    margin-top: 72px;
+    padding-right: 20px;
+}
+
+.services .services-content .service-content-two .sevice-content-text .service-text-h {
+    margin-top: 40px;
+    margin-left: -2px;
+    color: #3AB6B2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .3px;
+    text-align: center;
+}
+
+.services .services-content .service-content-one .sevice-content-text .service-text-p {
+    width: 289px;
+    margin-top: 12px;
+    margin-left: -7px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.72px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.services .services-content .service-content-two .sevice-content-text .service-text-p {
+    width: 289px;
+    margin-top: 12px;
+    margin-left: -7px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.72px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.services .services-content .service-content-three .sevice-content-text .service-text-p {
+    width: 289px;
+    margin-top: 12px;
+    margin-left: -10px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.72px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.services .services-content .service-content-three {
+    margin: 0 auto;
+    margin-top: 72px;
+    padding-right: 21px;
+}
+
+.services .services-content .service-content-three .sevice-content-text .service-text-h {
+    margin-left: -3px;
+}
+
+.portfolio {
+    height: 672px;
+    padding-top: 65px;
+}
+
+.portfolio .section-names .section-names-h {
+    padding-top: 1px;
+    padding-right: 23px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.3px;
+}
+
+.portfolio .section-names .borders {
+    margin-top: 11px;
+}
+
+.portfolio .section-names .borders img {
+    margin-left: -16px;
+}
+
+.portfolio .section-names .borders .border-right {
+    right: 106px;
+}
+
+.portfolio .section-names .borders .border-left {
+    left: 90px;
+}
+
+.portfolio .portfolio-content-top {
+    display: grid;
+    position: relative;
+    grid-gap: 25px;
+    grid-template-areas: 'portfolio-one portfolio-two portfolio-three', 'portfolio-for portfolio-five portfolio-six';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 227px 227px;
+    margin-top: 13px;
+    padding: 0 14px;
+}
+
+.portfolio .portfolio-content-top .portfolio-one {
+    position: relative;
+    grid-column: span 1;
+    background: #000000;
+    cursor: pointer;
+}
+
+.portfolio .portfolio-content-top .portfolio-three {
+    position: relative;
+    grid-column: span 1;
+    background: #000000;
+    cursor: pointer;
+}
+
+.portfolio .portfolio-content-top .portfolio-five {
+    position: relative;
+    grid-column: span 1;
+    background: #000000;
+    cursor: pointer;
+}
+
+.contact .section-names .section-names-h {
+    margin-top: -17px;
+    margin-left: -23px;
+    font-size: 29px;
+}
+
+.contact .section-names .borders img {
+    margin-top: 2px;
+    margin-left: -14px;
+}
+
+.contact .section-names .borders .border-left {
+    position: absolute;
+    top: 10px;
+    left: 87px;
+    width: 37px;
+    height: 1.1px;
+    background: #D3D3D3;
+}
+
+.contact .section-names .borders .border-right {
+    position: absolute;
+    top: 10px;
+    right: 105px;
+    width: 37px;
+    height: 1.1px;
+}
+
+.contact .contact-content {
+    width: 738px;
+    margin: 0 auto;
+}
+
+.contact .contact-content .contact-header {
+    margin-top: 20px;
+}
+
+.contact .contact-content .contact-header .contact-heaer-one .contact-heaer-one-img {
+    margin-left: -108px;
+}
+
+.contact .contact-content .contact-header .contact-heaer-one .contact-heaer-one-p {
+    margin-right: 105px;
+}
+
+.contact .contact-content .contact-header .contact-heaer-two .contact-heaer-two-img {
+    margin-top: 6px;
+    margin-left: -21px;
+}
+
+.contact .contact-content .contact-header .contact-heaer-two .contact-heaer-two-p {
+    margin-right: 20px;
+}
+
+.contact .contact-content .contact-header .contact-heaer-three .contact-heaer-three-img {
+    margin-top: 1px;
+    margin-left: 73px;
+}
+
+.contact .contact-content .contact-header .contact-heaer-three .contact-heaer-three-p {
+    margin-top: 16px;
+    margin-left: 96px;
+}
+
+.contact .contact-content .contact-form {
+    width: 738px;
+    margin-top: 44px;
+}
+
+.contact .contact-content .contact-form .input-one {
+    width: 352px;
+    margin-right: 9px;
+    border: 1px solid $color-7;
+}
+
+.contact .contact-content .contact-form .input-two {
+    width: 354px;
+    padding-left: 7px;
+    border: 1px solid #6A6A6A;
+}
+
+.contact .contact-content .contact-form .input-three {
+    width: 719px;
+    padding-top: 3px;
+    border: 1px solid $color-7;
+}
+
+.contact .contact-content .contact-form .textarea-one {
+    width: 719px;
+    padding-top: 15px;
+    padding-left: 8px;
+    border: 1px solid $color-7;
+}
+
+.contact .contact-content .contact-form .input-four {
+    width: 160px;
+    height: 42px;
+    margin-top: 13px;
+    padding-top: 1px;
+    padding-left: 0;
+}
+
+.contact {
+    height: 773px;
+}
+
+footer .footer-brand .footer-image {
+    margin-left: -8px;
+}
+
+footer .footer-icons {
+    width: 321px;
+}
+
+footer .footer-p {
+    padding-right: 18px;
 }
