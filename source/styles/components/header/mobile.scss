@@ -85,21 +85,27 @@
 
 .slider-bg .slider h2 span {
     display: none;
+    margin-left: 0;
+    font-size: 30px;
 }
 
 .slider-bg .slider p {
-    margin: 1px -4px 0 0;
+    margin: 0 -3px 0 0;
     color: #FFFFFF;
     font-family: 'Raleway Light', sans-serif;
     font-size: 9px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: -.77px;
+    letter-spacing: -.05px;
+}
+
+.slider-bg .slider p span {
+    display: none;
 }
 
 .slider-bg .slider .button button {
     margin-top: 17px;
-    margin-left: 2px;
+    margin-left: 5px;
     padding: 4px 12px;
     border: none;
     font-family: 'Raleway', sans-serif;
@@ -107,11 +113,6 @@
     font-style: normal;
     font-weight: bold;
     cursor: pointer;
-}
-
-.slider-bg .slider h2 span {
-    margin-left: 0;
-    font-size: 30px;
 }
 
 .navbar-brand-img-header {
@@ -374,7 +375,7 @@
 }
 
 .services .services-content .service-content-two .sevice-content-text .service-text-h {
-    margin-top: 32px;
+    margin-top: 35px;
     margin-left: -7px;
     color: #3AB6B2;
     font-family: 'Raleway', sans-serif;
@@ -386,7 +387,7 @@
 }
 
 .services .services-content .service-content-two .sevice-content-text .service-text-p {
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: -5px;
     padding: 0 9px;
     color: #FFFFFF;
@@ -395,7 +396,7 @@
     font-style: normal;
     font-weight: 400;
     letter-spacing: -.3px;
-    line-height: 21px;
+    line-height: 22px;
     text-align: center;
 }
 
@@ -418,7 +419,7 @@
 }
 
 .services .services-content .service-content-three .sevice-content-text .service-text-p {
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: -5px;
     padding: 0 9px;
     color: #FFFFFF;
@@ -489,8 +490,9 @@
 }
 
 .portfolio .section-names .section-names-h {
+    margin-left: -6px;
     font-size: 27px;
-    letter-spacing: .2px;
+    letter-spacing: 0;
 }
 
 .contact .contact-content {
@@ -538,6 +540,7 @@
 
 .contact .contact-content .contact-header .contact-heaer-one .contact-heaer-one-p {
     width: 100%;
+    padding-left: 4px;
 }
 
 .contact .contact-content .contact-header .contact-heaer-two {
@@ -554,6 +557,7 @@
 
 .contact .contact-content .contact-header .contact-heaer-three .contact-heaer-three-p {
     width: 100%;
+    padding-left: 4px;
 }
 
 .contact .contact-content .contact-header .contact-heaer-three .contact-heaer-three-img {
@@ -563,6 +567,7 @@
 
 .contact .contact-content .contact-header .contact-heaer-two .contact-heaer-two-p {
     width: 100%;
+    padding-left: 4px;
 }
 
 .contact .contact-content .contact-form {
@@ -573,7 +578,9 @@
 
 .contact .contact-content .contact-form .input-one {
     width: 100%;
-    margin-bottom: 11px;
+    margin-top: 2px;
+    margin-bottom: 9px;
+    padding-top: 0;
 }
 
 .contact .contact-content .contact-form .input-two {
@@ -590,6 +597,8 @@
     width: 100%;
     height: 141px;
     margin-top: 5px;
+    padding-top: 12px;
+    padding-left: 11px;
 }
 
 .contact .contact-content .contact-form .input-four {
@@ -605,7 +614,7 @@ footer .footer-brand .footer-h {
     margin-top: 5px;
     margin-left: 0;
     font-size: 32.49px;
-    letter-spacing: -1.5px;
+    letter-spacing: 0;
 }
 
 footer .footer-brand .footer-image {
@@ -619,7 +628,7 @@ footer .footer-brand .footer-image {
 footer .footer-icons {
     width: 230px;
     margin: 0 auto;
-    margin-top: 42px;
+    margin-top: 43px;
     text-align: center;
 }
 
@@ -628,6 +637,24 @@ footer .footer-icons .footer-icon {
 }
 
 footer .footer-p {
-    margin-top: 32px;
-    letter-spacing: .2px;
+    margin-top: 33px;
+    margin-left: -2px;
+}
+
+.about .section-names .borders img {
+    margin-right: -11px;
+}
+
+.about .section-names .borders .border-left {
+    position: absolute;
+    top: 9px;
+    left: 113px;
+    width: 33px;
+}
+
+.about .section-names .borders .border-right {
+    position: absolute;
+    top: 9px;
+    right: 105px;
+    width: 33px;
 }

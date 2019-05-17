@@ -54,10 +54,14 @@
 }
 
 .slider-bg {
+    position: relative;
     height: 760px;
+    overflow: hidden;
     background-color: $color-4;
 
     .slider {
+        position: relative;
+        z-index: 9;
         padding-top: 237px;
         text-align: center;
 
@@ -129,14 +133,16 @@
 
     .slider-prev {
         position: absolute;
-        top: 400px;
+        z-index: 9;
+        top: 301px;
         left: 31px;
         cursor: pointer;
     }
 
     .slider-next {
         position: absolute;
-        top: 400px;
+        z-index: 9;
+        top: 301px;
         right: 30px;
         cursor: pointer;
     }
@@ -686,49 +692,50 @@
         .portfolio-one {
             position: relative;
             grid-column: span 2;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-two {
             position: relative;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-three {
             position: relative;
             grid-column: span 2;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-four {
             position: relative;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-five {
             position: relative;
             grid-column: span 2;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-six {
             position: relative;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-seven {
             position: relative;
-            background: $color-10;
+            // background: $color-10;
             cursor: pointer;
         }
 
         .portfolio-all-hover {
+            overflow: hidden;
 
             .portfolio-hover {
                 display: none;
@@ -791,11 +798,12 @@
 }
 
 .portfolio-content-top .portfolio-all-hover:hover {
-    background-color: $color-4;
+    // background-color: $color-4;
 }
 
 .portfolio-content-top .portfolio-all-hover:hover .portfolio-hover {
     display: block;
+    z-index: 9;
     cursor: pointer;
 }
 
@@ -1078,4 +1086,35 @@ footer {
 
 .footer-icons .footer-icon:hover {
     background-color: $color-17;
+}
+
+.slider-image-desktop {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.images-portfolio-grids {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand::before {
+    content: '';
+    width: 27px;
+    height: 42px;
+    background-image: url(/images/header/header-logo.png);
+}
+
+footer .footer-brand::before {
+    content: '';
+    width: 27px;
+    height: 42px;
+    margin-left: 2px;
+    background-image: url(/images/header/header-logo.png);
 }

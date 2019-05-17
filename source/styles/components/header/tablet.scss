@@ -448,7 +448,7 @@
 }
 
 .contact .contact-content .contact-header .contact-heaer-one .contact-heaer-one-p {
-    margin-right: 105px;
+    margin-right: 103px;
 }
 
 .contact .contact-content .contact-header .contact-heaer-two .contact-heaer-two-img {
@@ -467,12 +467,12 @@
 
 .contact .contact-content .contact-header .contact-heaer-three .contact-heaer-three-p {
     margin-top: 16px;
-    margin-left: 96px;
+    margin-left: 94px;
 }
 
 .contact .contact-content .contact-form {
     width: 738px;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .contact .contact-content .contact-form .input-one {
@@ -522,4 +522,20 @@ footer .footer-icons {
 
 footer .footer-p {
     padding-right: 18px;
+}
+
+.images-portfolio-grids {
+    position: static;
+}
+
+.images-portfolio-grids-seven {
+    display: none;
+}
+
+footer .footer-brand::before {
+    content: '';
+    width: 27px;
+    height: 42px;
+    margin-left: -9px;
+    background-image: url(../../../images/header/header-logo.png);
 }
