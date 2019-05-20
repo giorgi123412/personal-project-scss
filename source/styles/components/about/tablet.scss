@@ -1,0 +1,157 @@
+
+.about {
+    height: 1074px;
+
+    .container {
+        width: 768px;
+        height: 107px;
+
+        .section-names {
+            margin-top: 72px;
+
+            h2 {
+                margin-left: -21px;
+                letter-spacing: -1.5px;
+            }
+
+            .borders {
+                margin-top: 9px;
+                margin-left: -17px;
+            }
+        }
+
+        .about-content {
+            display: none;
+        }
+
+        .about-tablet-content {
+
+            .about-talet-header {
+                width: 718px;
+                height: 421px;
+                margin-top: 19px;
+                background-color: $color-10;
+            }
+
+            .about-talet-body {
+
+                input {
+                    width: 140px;
+                    height: 42px;
+                    margin-top: 40px;
+                    padding-top: 1px;
+                    padding-right: 8px;
+                    border: none;
+                    background-color: #3AB6B2;
+                    color: #FFFFFF;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: -1.3px;
+                    cursor: pointer;
+                }
+
+                .about-title {
+                    margin-top: 28px;
+                    margin-left: -1px;
+                    color: #323232;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 700;
+                    letter-spacing: -.6px;
+                }
+
+                .about-text {
+                    margin-top: 36px;
+                    margin-left: 0;
+                    color: #6A6A6A;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0;
+                    line-height: 23px;
+                }
+
+                .about-content-text {
+
+                    img {
+                        float: left;
+                    }
+
+                    p {
+                        margin-top: 9px;
+                        color: $color-7;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 22px;
+                    }
+                }
+
+                .about-content-text-one {
+                    margin-top: 41px;
+                    margin-left: 1px;
+
+                    p {
+                        margin-top: -5px;
+                        margin-left: 30px;
+                        color: #6A6A6A;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 23px;
+                    }
+
+                    img {
+                        margin-top: 4px;
+                    }
+                }
+
+                .about-content-text-two {
+                    margin-top: 25px;
+                    margin-left: 1px;
+
+                    p {
+                        margin-top: -6px;
+                        margin-left: 30px;
+                        color: #6A6A6A;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 23px;
+                    }
+
+                    img {
+                        margin-top: 4px;
+                    }
+                }
+
+                .about-content-text-three {
+                    margin-top: 26px;
+                    margin-left: 1px;
+
+                    p {
+                        margin-top: -6px;
+                        margin-left: 30px;
+                        color: #6A6A6A;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 23px;
+                    }
+
+                    img {
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+}

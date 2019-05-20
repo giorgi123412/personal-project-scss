@@ -1,0 +1,259 @@
+.about {
+    height: 702px;
+
+    .section-names {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 114px;
+        text-align: center;
+
+        h2 {
+            color: $color-5;
+            font-family: 'Raleway', sans-serif;
+            font-size: 31px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -.2px;
+
+            span {
+                color: $color-3;
+            }
+        }
+
+        .borders {
+            position: relative;
+            margin-top: 11px;
+
+            .border-left {
+                position: absolute;
+                top: 10px;
+                left: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+
+            .border-right {
+                position: absolute;
+                top: 10px;
+                right: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+        }
+    }
+
+    .about-content {
+        display: flex;
+
+        .about-left-content {
+            margin-top: 60px;
+            margin-left: -3px;
+        }
+
+        .about-right-content {
+            margin-top: 60px;
+            margin-left: 90px;
+
+            .about-title {
+                margin-top: -4px;
+                margin-left: 2px;
+                color: $color-5;
+                font-family: 'Raleway', sans-serif;
+                font-size: 31px;
+                font-style: normal;
+                font-weight: 700;
+                letter-spacing: -.8px;
+            }
+
+            .about-text {
+                margin-top: 22px;
+                margin-left: 2px;
+                color: $color-7;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 27px;
+            }
+
+            .about-content-icons {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+
+                .about-content-one {
+                    display: flex;
+                    margin-top: 47px;
+                    margin-left: 4px;
+
+                    .about-content-img {
+                        width: 63px;
+                        height: 63px;
+                        border-radius: 50%;
+                        background: $color-8;
+                        text-align: center;
+
+                        img {
+                            padding: 19.5px;
+                        }
+                    }
+
+                    .about-content-text {
+                        margin-left: 27px;
+
+                        h2 {
+                            color: $color-5;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            letter-spacing: -.4px;
+                        }
+
+                        p {
+                            margin-top: 9px;
+                            color: $color-7;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22px;
+                        }
+                    }
+                }
+
+                .about-content-two {
+                    display: flex;
+                    margin-top: 47px;
+                    margin-left: 26px;
+
+                    .about-content-img {
+                        width: 63px;
+                        height: 63px;
+                        border-radius: 50%;
+                        background: $color-8;
+                        text-align: center;
+
+                        img {
+                            padding-top: 19px;
+                            padding-right: 22px;
+                            padding-left: 24px;
+                        }
+                    }
+
+                    .about-content-text {
+                        margin-left: 27px;
+
+                        h2 {
+                            color: $color-5;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            letter-spacing: -.4px;
+                        }
+
+                        p {
+                            margin-top: 9px;
+                            margin-left: -1px;
+                            color: $color-7;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22px;
+                        }
+                    }
+                }
+
+                .about-content-three {
+                    display: flex;
+                    margin-top: 49px;
+                    margin-left: 4px;
+
+                    .about-content-img {
+                        width: 63px;
+                        height: 63px;
+                        border-radius: 50%;
+                        background: $color-8;
+                        text-align: center;
+
+                        img {
+                            padding: 19.5px 19.5px 21.5px 19.5px;
+                        }
+                    }
+
+                    .about-content-text {
+                        margin-left: 27px;
+
+                        h2 {
+                            color: $color-5;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            letter-spacing: -.4px;
+                        }
+
+                        p {
+                            margin-top: 9px;
+                            color: $color-7;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22px;
+                        }
+                    }
+                }
+
+                .about-content-for {
+                    display: flex;
+                    margin-top: 49px;
+                    margin-left: 26px;
+
+                    .about-content-img {
+                        width: 63px;
+                        height: 63px;
+                        border-radius: 50%;
+                        background: $color-8;
+                        text-align: center;
+
+                        img {
+                            padding-top: 21px;
+                            padding-right: 22px;
+                            padding-left: 22px;
+                        }
+                    }
+
+                    .about-content-text {
+                        margin-left: 27px;
+
+                        h2 {
+                            color: $color-5;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            letter-spacing: -.4px;
+                        }
+
+                        p {
+                            margin-top: 9px;
+                            margin-left: -1px;
+                            color: $color-7;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

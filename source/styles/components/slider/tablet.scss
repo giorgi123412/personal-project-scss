@@ -1,0 +1,51 @@
+.slider-bg {
+    height: 593px;
+
+    .container {
+        width: 768px;
+        height: 107px;
+
+        .slider {
+            margin-left: -21px;
+            padding-top: 150px;
+
+            h3 {
+                margin-left: -6px;
+                letter-spacing: -1.9px;
+                word-spacing: .85px;
+            }
+
+            h2 {
+                margin: -6px 0 0 -1px;
+                font-size: 70px;
+                letter-spacing: 2.3px;
+            }
+
+            p {
+                margin: 6px 0 0 -4px;
+                letter-spacing: -.58px;
+            }
+
+            .button {
+
+                button {
+                    margin-top: 35px;
+                    margin-left: -6px;
+                }
+
+                .button-border {
+                    top: 37px;
+                    left: 309px;
+                }
+            }
+        }
+    }
+
+    .slider-prev {
+        display: none;
+    }
+
+    .slider-next {
+        display: none;
+    }
+}

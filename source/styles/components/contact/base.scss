@@ -1,0 +1,196 @@
+.contact {
+    height: 897px;
+    padding-top: 92px;
+
+    .section-names {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+
+        .section-names-h {
+            color: $color-12;
+            font-family: 'Raleway', sans-serif;
+            font-size: 31px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -.2px;
+        }
+
+        .borders {
+            position: relative;
+            margin-top: 11px;
+            padding-left: 1px;
+
+            .border-left {
+                position: absolute;
+                top: 7px;
+                left: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+
+            .border-right {
+                position: absolute;
+                top: 7px;
+                right: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+        }
+    }
+
+    .contact-content {
+        width: 950px;
+        margin: 0 auto;
+
+        .contact-header {
+            display: flex;
+            margin-top: 52px;
+
+            .contact-heaer-one {
+                width: 315px;
+                text-align: center;
+
+                .contact-heaer-one-img {
+                    margin-left: 5px;
+                }
+
+                .contact-heaer-one-p {
+                    margin-top: 15px;
+                    margin-right: -9px;
+                    color: $color-13;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: .6px;
+                    line-height: 24px;
+                }
+            }
+
+            .contact-heaer-two {
+                width: 315px;
+                text-align: center;
+
+                .contact-heaer-two-img {
+                    margin-top: 6px;
+                    margin-left: 5px;
+                }
+
+                .contact-heaer-two-p {
+                    margin-top: 21px;
+                    margin-right: -6px;
+                    color: $color-13;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: .6px;
+                    line-height: 24px;
+                }
+            }
+
+            .contact-heaer-three {
+                width: 315px;
+                text-align: center;
+
+                .contact-heaer-three-img {
+                    margin-top: 1px;
+                    margin-left: -25px;
+                }
+
+                .contact-heaer-three-p {
+                    margin-top: 16px;
+                    margin-right: 21px;
+                    color: $color-13;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: .6px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .contact-form {
+            width: 945px;
+            margin: 0 auto;
+            margin-top: 81px;
+
+            .input-one {
+                width: 464px;
+                height: 46px;
+                margin-right: 12px;
+                padding-left: 9px;
+                color: $color-14;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: -.9px;
+            }
+
+            .input-two {
+                width: 465px;
+                height: 46px;
+                padding-left: 9px;
+                color: $color-14;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: -.7px;
+            }
+
+            .input-three {
+                width: 945px;
+                height: 46px;
+                margin-top: 14px;
+                padding-bottom: 3px;
+                padding-left: 9px;
+                color: $color-14;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: -.7px;
+            }
+
+            .textarea-one {
+                width: 945px;
+                height: 171px;
+                margin-top: 14px;
+                padding-top: 14px;
+                padding-bottom: 3px;
+                padding-left: 9px;
+                color: $color-14;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: -.4px;
+            }
+
+            .input-four {
+                width: 160px;
+                height: 42px;
+                margin-top: 12px;
+                padding-top: 1px;
+                padding-left: 0;
+                border: none;
+                background-color: #3AB6B2;
+                color: #FFFFFF;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                letter-spacing: -1.3px;
+                cursor: pointer;
+            }
+        }
+    }
+}

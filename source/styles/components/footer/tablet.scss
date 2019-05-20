@@ -1,0 +1,30 @@
+footer {
+
+    .container {
+        width: 768px;
+        height: 107px;
+
+        .footer-brand {
+
+            .footer-image {
+                margin-left: -8px;
+            }
+        }
+
+        .footer-icons {
+            width: 321px;
+        }
+
+        .footer-p {
+            padding-right: 18px;
+        }
+    }
+}
+
+footer .footer-brand::before {
+    content: '';
+    width: 27px;
+    height: 42px;
+    margin-left: -9px;
+    background-image: url(../../../images/header/header-logo.png);
+}

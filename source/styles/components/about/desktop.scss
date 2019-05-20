@@ -1,0 +1,25 @@
+.container {
+    width: 1025px;
+}
+
+.about-tablet-content {
+    display: none;
+}
+
+.about {
+
+    .about-content {
+
+        .about-left-content {
+            width: 350px;
+        }
+
+        .about-left-content img {
+            width: 350px;
+        }
+
+        .about-right-content {
+            margin-left: 25px;
+        }
+    }
+}

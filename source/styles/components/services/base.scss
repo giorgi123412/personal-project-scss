@@ -1,0 +1,226 @@
+.services {
+    height: 783px;
+    padding-top: 100px;
+    background-color: $color-9;
+
+    .section-names {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+
+        .section-names-h {
+            color: $color-1;
+            font-family: 'Raleway', sans-serif;
+            font-size: 31px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -.2px;
+        }
+
+        .borders {
+            position: relative;
+            margin-top: 4px;
+            padding-left: 1px;
+
+            .border-left {
+                position: absolute;
+                top: 10px;
+                left: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+
+            .border-right {
+                position: absolute;
+                top: 10px;
+                right: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+        }
+    }
+
+    .services-content {
+        display: flex;
+        margin-top: 100px;
+
+        .service-content-one {
+            width: 295px;
+            cursor: pointer;
+
+            .service-content-img {
+                position: relative;
+                z-index: 2;
+                height: 150px;
+                background-image: url(../../../images/border.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                text-align: center;
+
+                .service-content-img-one {
+                    position: absolute;
+                    z-index: 999;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    margin-top: 61px;
+                    padding-right: 8px;
+                    cursor: pointer;
+
+                    :hover {
+                        background-image: none;
+                    }
+                }
+            }
+
+            .sevice-content-text {
+
+                .service-text-h {
+                    margin-top: 40px;
+                    color: $color-3;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    letter-spacing: .1px;
+                    text-align: center;
+                }
+
+                .service-text-p {
+                    margin-top: 12px;
+                    margin-left: -5px;
+                    color: $color-1;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: -.7px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .service-content-two {
+            width: 295px;
+            margin-left: 142px;
+            cursor: pointer;
+
+            .service-content-img {
+                position: relative;
+                z-index: 2;
+                height: 150px;
+                background-image: url(../../../images/border.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                text-align: center;
+
+                .service-content-img-one {
+                    position: absolute;
+                    z-index: 999;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    margin-top: 64px;
+                    cursor: pointer;
+
+                    :hover {
+                        background-image: none;
+                    }
+                }
+            }
+
+            .sevice-content-text {
+
+                .service-text-h {
+                    margin-top: 40px;
+                    color: $color-3;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    letter-spacing: .1px;
+                    text-align: center;
+                }
+
+                .service-text-p {
+                    margin-top: 12px;
+                    margin-left: 2px;
+                    color: $color-1;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: -.7px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .service-content-three {
+            width: 295px;
+            margin-left: 143px;
+            cursor: pointer;
+
+            .service-content-img {
+                position: relative;
+                z-index: 2;
+                height: 150px;
+                background-image: url(../../../images/border.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                text-align: center;
+
+                .service-content-img-one {
+                    position: absolute;
+                    z-index: 999;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    margin-top: 64px;
+                    cursor: pointer;
+
+                    :hover {
+                        background-image: none;
+                    }
+                }
+            }
+
+            .sevice-content-text {
+                margin-left: 3px;
+
+                .service-text-h {
+                    margin-top: 40px;
+                    color: $color-3;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    letter-spacing: .1px;
+                    text-align: center;
+                }
+
+                .service-text-p {
+                    margin-top: 12px;
+                    color: $color-1;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: -.7px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.services-content .service-content-all-hover:hover .service-content-img {
+    background-image: url(../../../images/service-hover.png);
+}

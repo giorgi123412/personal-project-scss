@@ -1,3 +1,12 @@
+@import 'reset';
 @import 'media-queries';
-@import 'base';
+@import 'base.scss';
+@import 'palette.scss';
+@import 'fonts.scss';
 @import 'components/header/index.scss';
+@import 'components/slider/index.scss';
+@import 'components/about/index.scss';
+@import 'components/services/index.scss';
+@import 'components/portfolio/index.scss';
+@import 'components/contact/index.scss';
+@import 'components/footer/index.scss';

@@ -1,0 +1,179 @@
+.portfolio {
+    height: 1017px;
+    padding-top: 100px;
+
+    .section-names {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 7px;
+        text-align: center;
+
+        .section-names-h {
+            color: $color-5;
+            font-family: 'Raleway', sans-serif;
+            font-size: 31px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -.2px;
+        }
+
+        .borders {
+            position: relative;
+            margin-top: 8px;
+            padding-left: 1px;
+
+            .border-left {
+                position: absolute;
+                top: 9px;
+                left: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+
+            .border-right {
+                position: absolute;
+                top: 9px;
+                right: 95px;
+                width: 37px;
+                height: 1.1px;
+                background: $color-6;
+            }
+        }
+    }
+
+    .portfolio-content-top {
+        display: grid;
+        position: relative;
+        grid-gap: 7px;
+        grid-template-areas: 'portfolio-one portfolio-one portfolio-two portfolio-three portfolio-three', 'portfolio-one portfolio-one portfolio-two portfolio-three portfolio-three';
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 379px 379px;
+        margin-top: 45px;
+
+        .portfolio-one {
+            position: relative;
+            grid-column: span 2;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-two {
+            position: relative;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-three {
+            position: relative;
+            grid-column: span 2;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-four {
+            position: relative;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-five {
+            position: relative;
+            grid-column: span 2;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-six {
+            position: relative;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-seven {
+            position: relative;
+            // background: $color-10;
+            cursor: pointer;
+        }
+
+        .portfolio-all-hover {
+            overflow: hidden;
+
+            .portfolio-hover {
+                display: none;
+
+                .icons {
+                    display: flex;
+                    margin-top: 160px;
+
+                    .icon-one {
+                        width: 46px;
+                        height: 46px;
+                        margin: 0 5px 0 auto;
+                        border: 2px solid $color-3;
+                        border-radius: 50%;
+                        line-height: 43px;
+                        text-align: center;
+                    }
+
+                    .icon-two {
+                        width: 46px;
+                        height: 46px;
+                        margin: 0 auto 0 5px;
+                        border: 2px solid $color-3;
+                        border-radius: 50%;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+
+                .portfolio-text {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: 75px;
+                    background-color: $color-11;
+                    text-align: center;
+
+                    .portfolio-text-h {
+                        margin-top: 17px;
+                        color: $color-1;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        letter-spacing: .5px;
+                    }
+
+                    .portfolio-text-p {
+                        margin-top: 7px;
+                        color: $color-3;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 13px;
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolio-content-top .portfolio-all-hover:hover {
+    // background-color: $color-4;
+}
+
+.portfolio-content-top .portfolio-all-hover:hover .portfolio-hover {
+    display: block;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.images-portfolio-grids {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
